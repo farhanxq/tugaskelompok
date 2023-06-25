@@ -46,8 +46,7 @@ public class penjumlahan {
             System.out.println(jumlahAngka + " Deret Bilangan Fibonacci: \n" + deretFibonacci);
             System.out.println("Jumlah Deret Bilangan Fibonacci: " + sumFibonacci + "\n");
 
-            System.out.println("######################################\n");
-
+            System.out.print("\n");
             System.out.print("Anda ingin mengulang? [y/t]: ");
             String ulang = scanner.nextLine();
             if (!ulang.equalsIgnoreCase("y")) {
